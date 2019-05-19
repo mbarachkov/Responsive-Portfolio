@@ -213,15 +213,74 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media (max-width: 980px) {
-
-}
-@media (max-width: 768px) {
-
-}
-@media (max-width: 640px) {
-  #masthead {
-    position: static;
-  }
+@media screen and (max-width: 980px) {
   
 }
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 640px) {
+  #cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  /* header */
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  #logo {
+    /* float: left; */
+    width: 100%;
+    /* height: 90px; */
+  }
+
+  nav {
+    /* float: right; */
+    /* margin-top: 25px; */
+    width: 100%;
+  }
+
+  nav a {
+    display: inline;
+    width: 100%;
+    /* align-content: center; */
+    margin: 0 auto;
+    line-height: 18px;
+
+  }
+  .container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    float: center;
+    /* clear: both; */
+  }
+  #main-container {
+    padding-top: 20%;
+    width: 100%;
+    margin: 0 auto;
+    min-height: calc(100vh - 70px);
+  }
+  
+  .main-section {
+    /* float: left; */
+    clear: both;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+} 
