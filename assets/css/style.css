@@ -214,7 +214,27 @@ input[type=submit] {
   border: 0 none;
 }
 @media screen and (max-width: 980px) {
-  
+  #masthead {
+    float: none;
+  }
+  .main-section {
+    float: left;
+    margin-left: 20px;
+    width: 70%;
+  }
+  .container {
+    /* width: 70%; */
+    max-width: 980px;
+    margin-left: 20px;
+    float: left;
+  }
+  #main-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #links {
+    margin-right: 40px;
+  }
 }
 @media screen and (max-width: 768px) {
   body {
@@ -223,7 +243,7 @@ input[type=submit] {
 
   }
   #main-container {
-    padding-top: 20%;
+    padding-top: 15%;
     width: 95%;
     margin: 0 auto;
   }
@@ -246,7 +266,25 @@ input[type=submit] {
     position: right;
   }
   #logo {
-    margin: 0 auto;
+    margin-left: 20px;
+  }
+  #port-pics {
+    width: 100%;
+    display: block;
+  }
+  .main-section {
+    float: none;
+    width: 100%;
+    overflow: auto;
+    max-width: 768px;
+    padding: 30px;
+  }
+  .work {
+    /* width: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
   }
 
   
